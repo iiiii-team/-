@@ -1,0 +1,28 @@
+1 主机故障记录表：
+id（incre） ip starttime  通知人 处理人 内容+ 原因 处理结果（处理中，完成）  
+
+2 支付故障记录表：
+id  starttime stoptime 通知人 处理人 故障类型（成功率，支付量） 内容  处理结果（处理中，完成）  故障方：第三方 ，金融
+
+3 网络故障记录表：
+id  starttime stoptime 通知人 处理人 故障类型（设备故障，链路故障） 内容 处理结果（处理中，完成）  故障方：第三方，金融
+
+4 业务故障记录表：
+id  starttime stoptime 通知人 处理人 故障类型（端口，进程，统一日志，其它） 内容 处理结果（处理中，完成）  
+
+5 短信故障记录表：
+id  starttime stoptime 通知人 处理人  内容 处理结果（处理中，完成）
+
+6 其它
+id  starttime stoptime 通知人 处理人  内容 处理结果（处理中，完成）
+
+7 主机报修记录表：
+id（incre） ip starttime  通知人 处理人 内容+ 原因 处理结果（处理中，完成）
+
+8 报警关闭记录表：
+id  ip service starttime stoptime 通知人 处理人 原因 处理结果（处理中，完成）
+
+
+
+
+
